@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605120751485.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1783979875",
+    "id" : "9D7CBC5D",
+    "lastKnownWriteTime" : 1605827921,
+    "last_content_update" : 1605827921185,
+    "path" : "~/Github/sutter_bypass_plot_CRC.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "102,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
