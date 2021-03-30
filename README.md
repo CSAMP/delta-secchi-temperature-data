@@ -25,7 +25,7 @@ The map horizontal coordinate system was set to WGS 1984. The secchi and tempera
 
 ## Secchi Data 
 
-Secchi depth data Secchi<sub>yms</sub> were used as an index of turbidity. Like (Temp)<sup>yms</sup>, Secchi depths for years 
+Secchi depth data Secchi<sub>yms</sub> were used as an index of turbidity. Like Temp<sub>yms</sub>, Secchi depths for years 
 1959-2020 were summarized from all CDFW and FWS databases available online (Fig. 2). Means for each year-month-stratum combination 
 were summarized, but data were not available for all strata in all year-months. Missing data were estimated from general linear models
 of the remaining Secchi data in other spatial strata. The best general linear model for each stratum was selected using backwards selection, 
@@ -41,10 +41,10 @@ data for some year-month-strata combinations were missing or sparse, with only a
 
 The water temperatures that would have been simulated by DSM2 for missing years, 2011-2014, were predicted using a general linear model of DSM2 monthly
 means Temp<sub>yms</sub> as a function of season, spatial strata, and monthly mean temperatures measured by fish monitoring programs
-(Temp)<sup>yms</sup>. The best model of Temp<sub>yms</sub> was identified using backwards selection, starting with a full model, having an effect for
+Temp<sub>yms</sub>. The best model of Temp<sub>yms</sub> was identified using backwards selection, starting with a full model, having an effect for
 each stratum and season, and eliminating non-significant spatial effects (acceptance level < 0.05), one coefficient at a time, before eliminating
 non-significant seasonal effects. The model was fit to data from years 1990-2010, and used to predict Temp<sub>yms</sub> from measured
-(Temp)<sup>yms</sup> for years 2011-2014.
+Temp<sub>yms</sub> for years 2011-2014.
 
 ## Missing Secchi and Temperature Data 
 
