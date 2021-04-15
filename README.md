@@ -6,7 +6,7 @@ Delta secchi and temperature data are available in `delta_water_quality_data_wit
 
 We used the package [deltareportr](https://github.com/sbashevkin/deltareportr) to obtain available delta water quality and saved the results in  `delta_water_quality_data.csv`. See `get_data.R` for more details.
 
-[deltareportr](https://github.com/sbashevkin/deltareportr) documentation gives the following data sources for the water quality variables, pulled from the [discretewq](https://github.com/sbashevkin/discretewq/) package:
+The [deltareportr](https://github.com/sbashevkin/deltareportr) documentation gives the following data sources for the water quality variables, pulled from the [discretewq](https://github.com/sbashevkin/discretewq/) package:
 * "EMP" (Environmental Monitoring Program)
 * "STN" (Summer Townet Survey)
 * "FMWT" (Fall Midwater Trawl)
@@ -18,6 +18,8 @@ We used the package [deltareportr](https://github.com/sbashevkin/deltareportr) t
 * "USGS" (USGS San Francisco Bay Surveys)
 * "USBR" (United States Bureau of Reclamation Sacramento Deepwater Ship Channel data)
 * "Suisun" (Suisun Marsh Fish Study)
+
+See the [Delta Smelt Anual Conditions Report](https://sbashevkin.github.io/deltareportr/Delta_Smelt_conditions_report_2019.html#recent-publications) for more information on raw data.
 
 ## Digitize Strata and Join to Secchi and Temperature Data
 The secchi and temperature data points were assigned their respective strata. This was achieved by digitizing the strata and joining the strata to the data. The strata was referenced from Fig. 2.3.2 from the report "Structured Decision Making for Scientific Management in the San Francisco Bay-Delta" (Peterson et al 2019).
