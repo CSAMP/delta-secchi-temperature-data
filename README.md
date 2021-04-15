@@ -8,8 +8,8 @@ We used the package [deltareportr](https://github.com/sbashevkin/deltareportr) t
 
 [deltareportr](https://github.com/sbashevkin/deltareportr) documentation gives the following data sources for the water quality variables, pulled from the [discretewq](https://github.com/sbashevkin/discretewq/) package:
 * "EMP" (Environmental Monitoring Program)
-* "STN" (Summer Townet Survey, \code)
-* "FMWT" (Fall Midwater Trawl, \code)
+* "STN" (Summer Townet Survey)
+* "FMWT" (Fall Midwater Trawl)
 * "EDSM" (Enhanced Delta Smelt Monitoring)
 * "DJFMP" (Delta Juvenile Fish Monitoring Program)
 * "20mm" (20mm Survey)
