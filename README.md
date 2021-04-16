@@ -52,15 +52,16 @@ General linear models were developed to predicting missing temperature and turbi
 
 **Temperature.** DSM2 monthly mean Temp<sub>yms</sub> for years y, 2011-2014, months m, and spatial strata s were predicted as a function of season, spatial strata, and monthly mean temperatures measured by fish monitoring programs Temp<sub>yms</sub>, using a general linear model. Temp<sub>yms</sub> from DSM2 represented a water column mean, while Temp<sub>yms</sub> from monitoring programs represented surface measurements. The relationship between  Temp<sub>yms</sub> and Temp<sub>yms</sub> was expected to vary seasonally, with the onset of thermal stratification as water warmed, and the effect of thermal stratification was expected to vary spatially, as water depth, tidal influence, and stratification vary spatially. Factorial seasonal and strata effects accounted for this spatiotemporal variation in the model to predict missing Temp<sub>yms</sub>.
 
-latexImg($$ (1)  Temp_{yms} = \beta_{temp_{0}} + \beta{temp_{1}} * Temp_{yms} +\sum_{j=1}^{n.season} \beta_{Temp_{2}} * Season_{m} +  \sum_{j=1}^{n.st.group_{temp}} \beta_{Temp_{2 + n,season + j}} * St.group_{Temp_{s}} $$)
+![](figures/temp-formula.png)
 
 
-$\beta_{Temp}$ represented coefficents of the general linear model, the quantity $\beta_{temp_{0}} +\sum_{j=1}^{n.season} \beta_{Temp_{2}} * Season_{m} +  \sum_{j=1}^{n.st.group_{temp}} \beta_{Temp_{2 + n,season + j}} * St.group_{Temp_{s}}$ represented a unique intercept for each _s_, and $\beta{temp_{1}} * Temp_{yms}$ scaled fish monitoring temperatures to DSM2 temperatures. Beginning with a full model, having four seasonal effects _Season_<sub>m</sub>, backwards selection was used to combine seasons until _n.season_ groupings remained, with coefficient p-values < 0.05. After selecting seasonal effects, the same process was used to eliminate strata-specific effects. Beginning with a full model, having 12 strata-specific effects _St.grou_<sub>s</sub>, backwards selection was used to combine strata until _n.st.grou_<sub>Temp</sub> groupings remained, with coefficient p-values < 0.05.
+![](figures/beta-temp.png) represented coefficients of the general linear model, the quantity 
+![](figures/temp-formulat-2.png) represented a unique intercept for each _s_, and ![](figures/temp-formula-3.png) scaled fish monitoring temperatures to DSM2 temperatures. Beginning with a full model, having four seasonal effects _Season_<sub>m</sub>, backwards selection was used to combine seasons until _n.season_ groupings remained, with coefficient p-values < 0.05. After selecting seasonal effects, the same process was used to eliminate strata-specific effects. Beginning with a full model, having 12 strata-specific effects _St.grou_<sub>s</sub>, backwards selection was used to combine strata until _n.st.grou_<sub>Temp</sub> groupings remained, with coefficient p-values < 0.05.
 
 **Secchi depth.** Missing Secchi depth measurements Secchi<sub>yms</sub> were also predicted from a general linear model. Since turbidity stratification was not expected to occur and no secondary measurements of Secchi<sub>yms</sub> were available from independent sources, missing Secchi<sub>yms</sub> were predicted using the remaining measurements in other strata.
 
-latexImg($$ (2)  Secchi_{ymi} = \beta_{Secchi_{0}} + \sum_{j=1}^{n.st_{Secchi_{i}}} \beta_{Secchi_{j}} * Secchi{ym_{St.group_{Secchi_{ij}}}} $$)
+![](figures/secchi-equation.png)
 
-for _i_ in the set [Yolo, East Delta, Northeast Suisun]. Backwards model selection was used to eliminate strata-specific effects $\beta_{Secchi}$ until $n.st_{Secchi}$ strata effects remained, with coefficient p-values < 0.05.
+for _i_ in the set [Yolo, East Delta, Northeast Suisun]. Backwards model selection was used to eliminate strata-specific effects b<sub>Secchi</sub> until n.st<sub>Secchi</sub> strata effects remained, with coefficient p-values < 0.05.
 
 
