@@ -36,7 +36,7 @@ beginning with the full model, having a separate coefficient for each spatial st
 Water temperature data Temp<sub>yms</sub> for years 1990-2010 were summarized from DSM2 hydrodynamic simulations by Derek Hilts (Fig. 2).
 The terminal year of the DSM2 Temp dataset, 2010, limited the number of years available for the delta smelt model by at least 4 years. A second set of
 water temperature data was therefore summarized from all available online data collected by the CDFW and FWS during Delta fish 
-[monitoring programs](ftp://ftp.dfg.ca.gov/; https://www.fws.gov/lodi/). The second water temperature dataset spanned years 1959-2020, but prior to 2011,
+[monitoring programs](https://www.fws.gov/lodi/). The second water temperature dataset spanned years 1959-2020, but prior to 2011,
 data for some year-month-strata combinations were missing or sparse, with only a single sample.
 
 The water temperatures that would have been simulated by DSM2 for missing years, 2011-2014, were predicted using a general linear model of DSM2 monthly
