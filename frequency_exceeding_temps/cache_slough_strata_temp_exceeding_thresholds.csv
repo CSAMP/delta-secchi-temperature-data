@@ -1,0 +1,65 @@
+water_year,water_year_type,march_above_15,april_above_17,strata
+1976,Critical,0,0,Sacramento River
+1977,Critical,0,0.5,Sacramento River
+1978,Above Normal,0,0,Sacramento River
+1979,Below Normal,0,0,Sacramento River
+1980,Above Normal,0,0,Sacramento River
+1981,Dry,0,0.5,Sacramento River
+1982,Wet,0,0,Sacramento River
+1983,Wet,0,0,Sacramento River
+1984,Wet,0,0,Sacramento River
+1985,Dry,0,0.5,Sacramento River
+1986,Wet,0,0,Sacramento River
+1988,Critical,0,0.09090909090909091,Sacramento River
+1989,Dry,0,0.6666666666666666,Sacramento River
+1990,Critical,0.13793103448275862,0.5,Sacramento River
+1991,Critical,0,0.25,Sacramento River
+1992,Critical,0.13333333333333333,0.6666666666666666,Sacramento River
+1993,Above Normal,0.125,0,Sacramento River
+1994,Critical,0.0625,0.05263157894736842,Sacramento River
+1995,Wet,0,0,Sacramento River
+1996,Wet,0,0,Sacramento River
+1997,Wet,0,0.38461538461538464,Sacramento River
+1997,Wet,0,1,Yolo Bypass
+1998,Wet,0,0,Sacramento River
+1999,Wet,0,0,Sacramento River
+1999,Wet,0,0,Yolo Bypass
+2000,Above Normal,0,0,Sacramento River
+2000,Above Normal,0,0,Yolo Bypass
+2001,Dry,0.2222222222222222,0.1111111111111111,Sacramento River
+2002,Dry,0.1875,0.4166666666666667,Sacramento River
+2002,Dry,0,0,Yolo Bypass
+2003,Above Normal,0.07142857142857142,0,Sacramento River
+2003,Above Normal,0,0,Yolo Bypass
+2004,Below Normal,0.07692307692307693,0.2727272727272727,Sacramento River
+2004,Below Normal,0,0.3333333333333333,Yolo Bypass
+2005,Above Normal,0.14285714285714285,0,Sacramento River
+2005,Above Normal,0,0,Yolo Bypass
+2006,Wet,0,0,Sacramento River
+2006,Wet,0,0,Yolo Bypass
+2007,Dry,0.3333333333333333,0.21428571428571427,Sacramento River
+2007,Dry,0.5,0.5,Yolo Bypass
+2008,Critical,0,0.05,Sacramento River
+2008,Critical,0,0.3333333333333333,Yolo Bypass
+2009,Dry,0,0.125,Sacramento River
+2009,Dry,0,0.5,Yolo Bypass
+2010,Below Normal,0.0625,0,Sacramento River
+2010,Below Normal,0.6,0.25,Yolo Bypass
+2011,Wet,0,0,Sacramento River
+2011,Wet,0.16666666666666666,0,Yolo Bypass
+2012,Below Normal,0,0.18181818181818182,Sacramento River
+2012,Below Normal,0,0.2857142857142857,Yolo Bypass
+2013,Dry,0.06666666666666667,0.5,Sacramento River
+2013,Dry,0.2222222222222222,0.5,Yolo Bypass
+2014,Critical,0.1875,0.6666666666666666,Sacramento River
+2014,Critical,0.3333333333333333,0.6153846153846154,Yolo Bypass
+2015,Critical,0.6111111111111112,0.6666666666666666,Sacramento River
+2015,Critical,0.75,0.7272727272727273,Yolo Bypass
+2016,Below Normal,0,0.14285714285714285,Sacramento River
+2016,Below Normal,0.6,0.8235294117647058,Yolo Bypass
+2017,Wet,0,0,Sacramento River
+2017,Wet,0.46153846153846156,0.4,Yolo Bypass
+2018,Below Normal,0,0.21428571428571427,Sacramento River
+2018,Below Normal,0,0.45454545454545453,Yolo Bypass
+2019,Wet,0,0.041666666666666664,Sacramento River
+2019,Wet,0.057692307692307696,0.75,Yolo Bypass
